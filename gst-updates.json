@@ -1,9 +1,17 @@
 {
-  "version": "2026.06.01",
+  "version": "2026.06.02",
   "released_date": "10/06/2026",
-  "message": "Initial GST master rates loaded",
-  "alert_type": "info",
-  "gst_updates": [],
+  "message": "GST rate change - Soap reduced from 18% to 12%",
+  "alert_type": "warning",
+  "gst_updates": [
+    {
+      "hsn": "3401",
+      "description": "Soap and Detergent",
+      "old_rate": 18,
+      "new_rate": 12,
+      "effective_date": "01/07/2026"
+    }
+  ],
   "hsn_master": [
     { "hsn": "1006", "description": "Rice", "gst_rate": 5 },
     { "hsn": "1701", "description": "Sugar", "gst_rate": 5 },
@@ -14,7 +22,7 @@
     { "hsn": "2402", "description": "Cigarettes", "gst_rate": 28 },
     { "hsn": "3004", "description": "Medicines", "gst_rate": 12 },
     { "hsn": "3305", "description": "Shampoo and Hair care", "gst_rate": 18 },
-    { "hsn": "3401", "description": "Soap and Detergent", "gst_rate": 18 },
+    { "hsn": "3401", "description": "Soap and Detergent", "gst_rate": 12 },
     { "hsn": "3402", "description": "Washing powder", "gst_rate": 18 },
     { "hsn": "3406", "description": "Candles", "gst_rate": 12 },
     { "hsn": "3808", "description": "Mosquito repellents", "gst_rate": 18 },
