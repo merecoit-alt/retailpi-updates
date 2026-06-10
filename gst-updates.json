@@ -1,0 +1,29 @@
+{
+  "version": "2026.06.01",
+  "released_date": "10/06/2026",
+  "message": "Initial GST master rates loaded",
+  "alert_type": "info",
+  "gst_updates": [],
+  "hsn_master": [
+    { "hsn": "1006", "description": "Rice", "gst_rate": 5 },
+    { "hsn": "1701", "description": "Sugar", "gst_rate": 5 },
+    { "hsn": "1905", "description": "Biscuits and Bread", "gst_rate": 18 },
+    { "hsn": "2106", "description": "Food preparations", "gst_rate": 18 },
+    { "hsn": "2201", "description": "Water (packaged)", "gst_rate": 18 },
+    { "hsn": "2202", "description": "Soft drinks / Beverages", "gst_rate": 28 },
+    { "hsn": "2402", "description": "Cigarettes", "gst_rate": 28 },
+    { "hsn": "3004", "description": "Medicines", "gst_rate": 12 },
+    { "hsn": "3305", "description": "Shampoo and Hair care", "gst_rate": 18 },
+    { "hsn": "3401", "description": "Soap and Detergent", "gst_rate": 18 },
+    { "hsn": "3402", "description": "Washing powder", "gst_rate": 18 },
+    { "hsn": "3406", "description": "Candles", "gst_rate": 12 },
+    { "hsn": "3808", "description": "Mosquito repellents", "gst_rate": 18 },
+    { "hsn": "3923", "description": "Plastic containers / bags", "gst_rate": 18 },
+    { "hsn": "4818", "description": "Tissue paper / Toilet paper", "gst_rate": 18 },
+    { "hsn": "4901", "description": "Books", "gst_rate": 0 },
+    { "hsn": "4902", "description": "Newspapers", "gst_rate": 0 },
+    { "hsn": "6302", "description": "Bed sheets / Towels", "gst_rate": 5 },
+    { "hsn": "8516", "description": "Electric appliances", "gst_rate": 18 },
+    { "hsn": "9619", "description": "Sanitary napkins / Diapers", "gst_rate": 12 }
+  ]
+}
